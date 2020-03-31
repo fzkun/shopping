@@ -1,0 +1,97 @@
+.w{
+    width: 1200px;
+    margin:0 auto;
+}
+li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 84px;
+    border-bottom: 2px solid rgb(199, 13, 13);
+}
+.logo a img{
+    height: 70px;
+}
+.registerarea{
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3{
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    font-weight: 400;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.registerarea .login{
+    float: right;
+    font-size: 14px;
+}
+.registerarea .login a{
+    color:red;
+}
+.reg-form{
+    width: 600px;
+    margin: 50px auto;
+}
+.reg-form ul{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.reg-form ul li{
+    margin-bottom: 15px;
+}
+.reg-form span{
+    font-size: 14px;
+    color:red;
+}
+.reg-form label{
+    display:inline-block;
+    width: 100px;
+    text-align: right;
+}
+.reg-form .inp{
+    width: 220px;
+    height: 35px;
+}
+.safe{
+    padding-left: 140px;
+}
+.safe em{
+    padding: 0 12px;
+    font-style: normal;
+
+}
+.ruo{
+    background-color: red;
+}
+.zhong{
+    background-color: green;
+}
+.qiang{
+    background-color: orange;
+}
+.reg-form ul .agree{
+    padding-left: 95px;
+    margin-top: 30px;
+}
+.agree input{
+    vertical-align: center;
+}
+.agree a{
+    color: rgb(28, 5, 179);
+}
+.btn{
+    width: 200px;
+    height: 34px;
+    background-color: red;
+    color: white;
+    margin:30px 0 0 100px;
+}

@@ -1,0 +1,117 @@
+.sk{
+    position: absolute;
+    left:190px;
+    top:32px;
+    border-left: 1px solid #c81523;
+    padding:3px 0 0 14px;
+}
+.sk img{
+    width: 70px;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    padding:0 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con{
+    float: left;
+    margin-left: 50px;
+}
+.sk_con ul li{
+    float: left;
+    display: block;
+    line-height: 47px;
+    padding:0 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sk_hd img{
+    width: 100%;
+}
+
+.sk_bd{
+    height: 1400px;
+}
+.sk_bd ul li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.sk_bd ul li .pic{
+    display: inline-block;
+    width: 140px;
+    margin-top: 35px;
+}
+.sk_bd ul li p{
+    text-align: left;
+}     
+.sk_bd ul li .price{
+    line-height: 50px;
+    height: 50px;
+}
+.sk_bd ul li .sale_price{
+    float: left;
+    font-size: 25px;
+    color: red;
+    font-weight: 700;
+}
+.sk_bd ul li .origin{
+    float: left;
+    font-size: 18px;
+    color:grey;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li:hover{
+    border:1px solid red;
+}
+.sales{
+    height: 16px;
+    line-height: 16px;
+}
+.sales span{
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.sales .bar{
+    float: left;
+    width: 150px;
+    height: 16px;
+    border:1px solid red;
+    border-radius: 8px;
+    padding: 1px;
+}
+.sales .bar_in{
+    float: left;
+    width: 87%;
+    height: 100%;
+    background-color: red;
+}
+.sales i{
+    color: red;
+}
+.sk_bd ul li .buy{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(223, 13, 13);
+    font-size: 25px;
+    margin-top: 25px;
+}
+.sk_bd ul li .buy a{
+    display:block;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+}
